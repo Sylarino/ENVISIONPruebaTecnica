@@ -1,0 +1,73 @@
+/* Initial settings */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'DM Sans', sans-serif;
+}
+
+body {
+    text-align: center;
+    height: 100vh;
+    background: rgb(26, 45, 46);
+}
+
+section {
+    color: cornsilk;
+}
+
+footer {
+    padding-top: 40px;
+}
+
+h1 {
+    font-size: 2.5rem;
+    padding: 20px;
+    color: rgb(204, 182, 182);
+}
+
+#movie-list li h3{
+    font-size: 2rem;
+    color: rgb(199, 245, 230);
+}
+
+#movie-list .list-movie {
+    margin: 20px;
+    list-style: none;
+}
+
+#movie-list li ul{
+    font-size: 1.6rem;
+    list-style: none;
+}
+
+#btn-getmovies {
+    margin-top: 25px;
+    min-width: 250px;
+    min-height: 50px;
+    font-size: 1.5rem;
+    background-color: rgb(126, 17, 39);
+    color: rgb(247, 245, 240);
+    font-weight: bold;
+    border: none;
+    border-radius: 4px;
+}
+
+#btn-getmovies:hover {
+    box-shadow: 0 12px 16px 0 rgba(105, 98, 98, 0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+#btn-getmovies:hover {
+    background: #2079b0;
+    background-image: -webkit-linear-gradient(top, #b02044, #e43c98);
+    background-image: -moz-linear-gradient(top, #b02044, #e43c98);
+    background-image: -ms-linear-gradient(top, #b02044, #e43c98);
+    background-image: -o-linear-gradient(top, #b02044, #e43c98);
+    background-image: linear-gradient(to bottom, #b02044, #e43c98);
+    text-decoration: none;
+    cursor: pointer;
+}
